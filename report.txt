@@ -1,0 +1,3 @@
+The test (4, 7, 0, 11) is the one that's failing.
+
+It's because the number of rechecks is equal to 0, resulting in the for loop production an empty list for range[num_rechecks], causing an IndexError in the code. 
